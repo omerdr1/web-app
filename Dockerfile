@@ -9,6 +9,6 @@ COPY requirements.txt /usr/src/app/
 COPY app.py /usr/src/app/
 COPY templates/index.html /usr/src/app/templates/
 
-EXPOSE 5000
+EXPOSE 3000
 
 CMD ["python", "/usr/src/app/app.py"]
