@@ -11,4 +11,4 @@ COPY templates/index.html /usr/src/app/templates/
 
 EXPOSE 3000
 
-CMD ["python", "/usr/src/app/app.py"]
+ENTRYPOINT ["app.py"]
