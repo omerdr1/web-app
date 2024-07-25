@@ -4,7 +4,7 @@ RUN apk add --update py2-pip
 
 RUN pip install --upgrade pip
 
-RUN pip install flask
+RUN apk add py3-flask
 
 COPY requirements.txt /usr/src/app/
 
