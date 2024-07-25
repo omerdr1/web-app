@@ -11,4 +11,6 @@ COPY templates/index.html /usr/src/app/templates/
 
 EXPOSE 3000
 
+WORKDIR /usr/src/app/
+
 CMD ["python", "app.py"]
